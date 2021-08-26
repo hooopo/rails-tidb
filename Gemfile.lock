@@ -47,6 +47,9 @@ GEM
     activerecord (6.1.4.1)
       activemodel (= 6.1.4.1)
       activesupport (= 6.1.4.1)
+    activerecord-tidb-adapter (6.1.1)
+      activerecord (~> 6.1)
+      mysql2
     activestorage (6.1.4.1)
       actionpack (= 6.1.4.1)
       activejob (= 6.1.4.1)
@@ -145,6 +148,7 @@ PLATFORMS
   x86_64-darwin-18
 
 DEPENDENCIES
+  activerecord-tidb-adapter (~> 6.1.0)
   bootsnap (>= 1.4.4)
   byebug
   listen (~> 3.3)
